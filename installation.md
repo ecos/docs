@@ -18,7 +18,7 @@ First, download the Laravel installer using Composer.
 
 	composer global require "laravel/installer=~1.1"
 
-Make sure to place the `~/.composer/vendor/bin` directory in your PATH so the `laravel` executable can be located by your system.
+Make sure to place the `~/.composer/vendor/bin` directory in your PATH ([Mac](http://architectryan.com/2012/10/02/add-to-the-path-on-mac-os-x-mountain-lion/#.VR_qeDvF8js), Win, Linux)  so the `laravel` executable can be located by your system.
 
 Once installed, the simple `laravel new` command will create a fresh Laravel installation in the directory you specify. For instance, `laravel new blog` would create a directory named `blog` containing a fresh Laravel installation with all dependencies installed. This method of installation is much faster than installing via Composer:
 
